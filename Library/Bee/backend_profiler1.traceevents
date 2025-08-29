@@ -1,0 +1,411 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1650900695881437, "dur":4587, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900695886041, "dur":2261, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1650900695888355, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1650900695888425, "dur":1286, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1650900695889806, "dur":1956, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900695891762, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699885984, "dur":253, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886237, "dur":131, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886368, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886383, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886413, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886423, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886440, "dur":53, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886493, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886510, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886515, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886533, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886538, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886554, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886561, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886576, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886581, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886598, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886617, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699886656, "dur":4150, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1650900695889907, "dur":1907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695891824, "dur":18032, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695910021, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650900695910025, "dur":632, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695910662, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650900695910667, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695910902, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1650900695911156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695943650, "dur":15834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1650900695959555, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1650900695959751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900695959762, "dur":453306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1650900696413146, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696413223, "dur":935, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696414160, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696414247, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696414411, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696414486, "dur":2342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696416832, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696416914, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696417429, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696417518, "dur":663, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696418182, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696418247, "dur":15424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696433674, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696433809, "dur":2760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696436579, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696436673, "dur":4612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696441286, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650900696441353, "dur":9790, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696451149, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1650900696451272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696451281, "dur":10779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1650900696462158, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1650900696462238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696462246, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1650900696465348, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1650900696465424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650900696465434, "dur":1774727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1650900698240330, "dur":1645625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900695890009, "dur":1828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900695891843, "dur":18096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900695910009, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1650900695910442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900695914068, "dur":499458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1650900696413602, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696413671, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696414224, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696414319, "dur":2596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696416918, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696417005, "dur":829, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696417836, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696417907, "dur":15228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696433140, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696433258, "dur":2226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696435488, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696435690, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696436110, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696436193, "dur":4884, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696441081, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650900696441183, "dur":5693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696446879, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696446984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696446991, "dur":27116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696474209, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696474298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696474324, "dur":214094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696688537, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696688645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696688654, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1650900696691687, "dur":166623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1650900696858312, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696858629, "dur":2416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1650900696861046, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696861383, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1650900696861490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900696861541, "dur":1004555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1650900697866254, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1650900697866425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900697866444, "dur":93312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1650900697959866, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1650900697959976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900697959987, "dur":10606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1650900697970937, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1650900697971706, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650900697971725, "dur":9065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1650900697980956, "dur":1905010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900695890102, "dur":1765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900695891868, "dur":18060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900695910011, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1650900695910438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900695913974, "dur":31920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1650900695945996, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1650900695946253, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900695946274, "dur":470868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1650900696417222, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696417292, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696417996, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696418058, "dur":15623, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696433683, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696433777, "dur":2744, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696436524, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696436619, "dur":5621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696442243, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696444197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696444205, "dur":37651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650900696481931, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650900696482009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696482015, "dur":188404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650900696670496, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650900696670567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696670574, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650900696673331, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1650900696673427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900696673437, "dur":677856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1650900697351388, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1650900697351480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900697351489, "dur":519422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1650900697871011, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1650900697871108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900697871120, "dur":23136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1650900697894427, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1650900697894583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900697894597, "dur":79372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1650900697974128, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1650900697974755, "dur":543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650900697975303, "dur":1910694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695890227, "dur":1660, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695891887, "dur":18022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695910021, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1650900695910439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695916276, "dur":21429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1650900695937801, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1650900695938108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695938120, "dur":19337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1650900695957538, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1650900695957758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695957768, "dur":22600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1650900695980439, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650900695980629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650900695980635, "dur":3905202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650900699885908, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1650900699885910, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900695890327, "dur":1581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900695891908, "dur":17996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900695910012, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1650900695910514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900695915941, "dur":65285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1650900695981296, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":5, "ts":1650900695981478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900695981484, "dur":287607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":5, "ts":1650900696269158, "dur":156948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650900696426120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900696426131, "dur":55570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650900696481784, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900696481870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900696481878, "dur":1384301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900697866338, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900697866504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900697866520, "dur":28952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900697895605, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900697895731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650900697895743, "dur":78724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1650900697974619, "dur":1911344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695890423, "dur":1507, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695891931, "dur":18003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695910273, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1650900695910685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695942326, "dur":17795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1650900695960187, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1650900695960358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695960366, "dur":21634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1650900695982089, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4.exe" }}
+,{ "pid":12345, "tid":6, "ts":1650900695982165, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695982233, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1650900695982409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900695983570, "dur":179100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1650900696162756, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696162835, "dur":2689, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696165528, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696165638, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696165781, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696165861, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696165978, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696166038, "dur":2231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168271, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168356, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168516, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168595, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168742, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168814, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696168974, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696169068, "dur":4133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696173207, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696173346, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696173532, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696173643, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696173942, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174022, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174207, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174289, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174702, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174794, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696174966, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696175053, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696175205, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696175286, "dur":3334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696178623, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696178736, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179542, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179608, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179724, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179772, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179881, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696179942, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696180040, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696180096, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696180403, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696180462, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696180587, "dur":235174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696415774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696415784, "dur":27048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650900696443045, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1650900696443139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696443148, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1650900696445383, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1650900696445455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696445461, "dur":146429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1650900696591990, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1650900696592098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900696592109, "dur":621496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1650900697213755, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1650900697213865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900697213875, "dur":598664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1650900697812678, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1650900697812855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900697812866, "dur":81046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1650900697894552, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1650900697894705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900697894784, "dur":73888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1650900697969287, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1650900697969959, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650900697970049, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1650900697976549, "dur":1909413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695890507, "dur":1443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695891950, "dur":18011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695910013, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1650900695910537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695928252, "dur":9248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1650900695937667, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1650900695937973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695938006, "dur":17110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1650900695957335, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1650900695958254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695958265, "dur":18289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1650900695976625, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900695976822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900695976830, "dur":204261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696181165, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696181232, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696181396, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696181474, "dur":768, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182243, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182307, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182416, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182465, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182587, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182639, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696182991, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183051, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183360, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183417, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183522, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183566, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183662, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183705, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696183996, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184067, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184180, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184231, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184343, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184387, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184491, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184566, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696184996, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185111, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185286, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185367, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185671, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185744, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185893, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696185965, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696186405, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696186472, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696186590, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696186643, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696186951, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696187017, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696187133, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696187186, "dur":652, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696187840, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696187920, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188048, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188104, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188225, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188278, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188384, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188435, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188747, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696188807, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189055, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189114, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189216, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189269, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189364, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189412, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189715, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696189778, "dur":498, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190277, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190336, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190462, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190521, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190645, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696190715, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191197, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191261, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191371, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191421, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191542, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191595, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191698, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696191749, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192054, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192119, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192227, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192276, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192374, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192416, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192512, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192563, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696192946, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696193148, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696193300, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696193464, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696193652, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696193833, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696194083, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696194161, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696194574, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696194727, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696194850, "dur":73014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696267878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696268013, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696271329, "dur":125894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900696397225, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900696397688, "dur":1917739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900698315467, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650900698315502, "dur":5170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650900698320851, "dur":1565122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695890604, "dur":1369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695891973, "dur":17948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695910010, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1650900695910443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695914507, "dur":32760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1650900695947376, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1650900695948009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695949625, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1650900695954115, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1650900695954844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695954854, "dur":13820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1650900695968773, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1650900695968945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695968954, "dur":6134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1650900695975167, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900695975395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900695975553, "dur":239114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900696214734, "dur":193628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900696408378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900696408388, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900696410795, "dur":1908812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TrabalhoPratico4_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900698319641, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650900698319667, "dur":5030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TrabalhoPratico4_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650900698324994, "dur":1560978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650900699895722, "dur":4456, "ph":"X", "name": "ProfilerWriteOutput" }
+,
